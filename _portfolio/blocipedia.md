@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Blocipedia
-thumbnail-path: "img/blocipedia.png"
-short-description: Build a production quality SaaS app that allows users to create their own wikis.
+title: Kenny's Chat
+thumbnail-path: "img/bloc-chat.png"
+short-description: Kenny's Chat uses Firebase and AngularJS to create a real-time chat application.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocipedia.png)
+![]({{ site.baseurl }}/img/bloc-chat.png)
 
 ## Explanation
 
