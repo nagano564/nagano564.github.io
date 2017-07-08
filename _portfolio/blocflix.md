@@ -8,7 +8,7 @@ short-description: BlocJams is a spotify replica for playing some great classica
 
 {:.center}
 ![]({{ site.baseurl }}/img/bloc_jams_bg.jpg)
-<a herf ="http://pirate-duck-24278.netlify.com/">Link to BlocJams </a>
+<a href ="http://pirate-duck-24278.netlify.com/">Link to BlocJams </a>
 
 ## Explanation
 
