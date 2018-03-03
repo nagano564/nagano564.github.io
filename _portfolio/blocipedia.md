@@ -1,34 +1,29 @@
 ---
 layout: post
-title: Kenny's Chat
-thumbnail-path: "img/bloc-chat.png"
-short-description: Kenny's Chat uses Firebase and AngularJS to create a real-time chat application.
+title: BlocJams
+thumbnail-path: "img/bloc_jams_bg.jpg"
+short-description: BlocJams is a spotify replica for playing some great classical music.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/bloc-chat.png)
+![]({{ site.baseurl }}/img/bloc_jams_bg.jpg)
+<a href ="http://pirate-duck-24278.netlify.com/">Link to BlocJams </a>
 
 ## Explanation
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Bloc Jams is a limited replica of Spotify. The emphasis of this project is CSS and DOM manipulation.  The music player is controlled by custom jQuery scripts. The exception being that I use a library to actually handle the playing of the audio files. Check it out and listen to some classic tunes!
 
 ## Problem
-
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+There is a property on the window object called onload that we can pass a function that executes when the window (like a browser window or tab) finishes loading. I added the window.onload property to landing.js and pass it an anonymous function that calls a JavaScript alert():
 
 ## Solution
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+We assign the window.onload property an event handler, a function that handles code in response to an event. The event handler executes as soon as an action fires an event.
+
+As a page loads, the browser may render elements, styles, and scripts that require additional time to process. This means that some DOM nodes may not exist until the browser finishes loading the page. Put any code that is dependent on a completely-loaded web page in a window.onload block, particularly any code that depends on DOM elements to execute properly
+
 
 ## Results
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
-
-> Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
-
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
-
-## Conclusion
-
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+The bloc-jams site uses Bootstrap Angular to create a serve that controls song playback. Using JQuery was a great tool but learning to build a more sophisticated front end application using Angular was very productive. Learning Angular will be a very useful tool for future projects

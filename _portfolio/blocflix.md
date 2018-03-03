@@ -1,31 +1,42 @@
 ---
 layout: post
-title: BlocJams
-thumbnail-path: "img/bloc_jams_bg.jpg"
-short-description: BlocJams is a spotify replica for playing some great classical music.
+title: tips4myfirsthouse
+thumbnail-path: "img/tips.png"
+short-description: Custom page for local real state agent
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/bloc_jams_bg.jpg)
-<a href ="http://pirate-duck-24278.netlify.com/">Link to BlocJams </a>
+![]({{ site.baseurl }}/img/tips.png)
+<h3><a href ="http://www.tips4myfirsthouse.com/">Go To tips4myfirsthouse</a></h3>
 
 ## Explanation
 
-Bloc Jams is a limted replica of Spotify. The emphasis of this project is CSS and DOM manipulation.  The music player is controlled by custom jQuery scripts. The exception being that I use a library to actually handle the playing of the audio files. Check it out and listen to some classic tunes!
+tips4myfirsthouse was my first freelance client. I am continuing to work with my client to customize his website.
+It uses rails on the backend with mostly Bootstrap on the front end. We created a custom site that would make purchasing a home easier for future home buyers. I am using the ActiveAdmin gem for him to have access to the emails for his potential clients.
 
 ## Problem
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+I needed the site to be a responsive design to run on every platform we could manage. That means that www.tips4myfirsthouse needed to adapt to the user’s device such as desktop, tablet, or smartphone, and display the content in the best way possible for that device.
 
 ## Solution
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+After reading the Bootstrap docs I found a solution that made creating a responsive site seem easy. Collapsibles are useful when you want to hide and show large amount of content. The .collapse class indicates a collapsible element. This is the content that will be shown or hidden with a click of a button. By added the .collapse class and the css code below I could control when the menu bar would collapse.
+
+```
+@media only screen and (max-width: 625px){
+  .wrapper{
+    grid-template-columns: auto;
+  }
+}
+```
+
+I added this code to manually choose when the max-width would be set because the defaults still made my site look weird on an ipad.
 
 ## Results
 
-The bloc-jams site uses Bootstrap Angular to create a serve that controls song playback. Using JQuery was a great tool but learning to build a more sophisticated front end application using Angular was very productive. Learning Angular will be a very useful tool for future projects
+The result is that I got my site to be a responsive design to run on every platform. Users could now use www.tips4myfirsthouse on their phones as well as on their home computers. This was important so users could add tasks to their custom checklist at the time of looking for a house on their cell phones.
 
 ## Conclusion
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+I learned the hard way that when building an application, if you want my users to have the best possible experience on mobile and desktop devices, designing for mobile first is the way to go. You won’t have to worry about there being mobile feature constraints, or slower loading times when using a mobile device.

@@ -6,7 +6,9 @@
 html {
   background: $background-color;
 }
-
+h3{
+  text-align: center;
+}
 // Typography
 ::selection {
   background: $selection-color;
