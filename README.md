@@ -7,9 +7,7 @@ A free and open-source [Jekyll](http://jekyllrb.com) theme. Great for blogs and 
 
 ## Get Started
 
-[Demo](http://madebymunsters.github.io/Lannister/)
-
-[Using Type](https://rohanchandra.github.io/project/type/)
+[Link to my portfolio](http://www.kennagano.com/)
 
 ## License
 The MIT License (MIT)
